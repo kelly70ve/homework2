@@ -1,0 +1,58 @@
+/* Multiple Styling */
+
+* {
+  font-family: 'Roboto', sans-serif;
+  color: #0B3954;
+}
+.container-fluid {
+  padding: 0px;
+}
+
+a {
+  color: #0B3954
+}
+
+section { 
+  height: 100vh;
+}
+
+/* Jumbotron */
+
+h1 {
+  font-family: 'Permanent Marker', cursive;
+  color: #e1b0a8;
+}
+.jumbotron {
+  background-color: white;
+  height: 100vh; 
+}
+
+/* About me */
+#about-me {
+  background-color: #e1b0a8;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Portfolio */
+#portfolio {
+  background-color: #0B3954;
+}
+
+#portfolio h2 {
+  color: white;
+}
+
+/* Contact Me */
+#contact-me {
+  background-color: #e1b0a8;
+}
+
+/* Footer */
+footer {
+  background-color: #0B3954;
+  color: white;
+}
