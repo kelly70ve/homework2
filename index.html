@@ -5,16 +5,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kelly Gowing</title>
+  <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Bitter&family=Roboto&display=swap" rel="stylesheet">
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+  <!-- favicon -->
+  <link rel='icon' href='favicon.ico' type='image/x-icon'>
 </head>
 
 <body>
-  <div class="container-fluid">
+  <div class="container-fluid" id="full">
     <header>
        <!-- NAV -->
       <nav class="nav justify-content-end">
@@ -32,66 +37,70 @@
   
     <!-- Jumbo Tron -->
     <div class="jumbotron row">
-      <div class="col-md-8">
-        <h1 class="display-4">Hi, I'm Kelly</h1>
-        <hr class="my-4">
-        <p>AND I'M A FULL STACK WEB DEVELOPER</p>
+      <div class="col-md-6">
+        <img src="Assets/Images/kelly.jpg" alt="Kelly Gowing" class="img-fluid shadow">
       </div>
-      <div class="col-md-4">
-        <img src="Assets/Images/kelly.jpg" alt="Kelly Gowing" class="rounded-circle img-fluid">
+      <div class="col-md-6" id="intro">
+        <h1 class="display-4">WELCOME</h1>
+        <hr class="my-4">
+        <p>Hi, I'm Kelly and I'm a full stack web developer.</p>
+        <a class="btn btn-primary btn-lg" href="#contact-me" role="button">Let's work together!</a>
       </div>
     </div>
 
     <!-- ABOUT ME -->
     <section id="about-me">
-      <h2 class="text-center">About Me</h2>
-      <div class="row">
-        <div class="col-md-4">
-          <img src="Assets/Images/gradcap.jpg" alt="gradcap" class="img-fluid">
-        </div>
-        <div class="col-md-8">
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, reprehenderit. Laborum, saepe quidem minus
-            sint natus ullam minima omnis in labore assumenda consequuntur qui autem totam error ea impedit ab?
-          </p>
-          <h3>Education</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, vitae.
-          </p>
-          <h3>Skills</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolore.</p>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 center">
+            <h2 class="text-center">About Me</h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, reprehenderit. Laborum, saepe quidem minus
+              sint natus ullam minima omnis in labore assumenda consequuntur qui autem totam error ea impedit ab?
+            </p>
+            <h3>Education</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, vitae.
+            </p>
+            <h3>Skills</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolore.</p>
+          </div>
+          <div class="col-md-4">
+            <img src="Assets/Images/gradcap.jpg" alt="gradcap" class="img-fluid shadow">
+          </div>
         </div>
       </div>
     </section>
 
     <!-- Portfolio -->
     <section id="portfolio">
-      <h2 class="text-center">Portfolio</h2>
-      <div class="card-deck">
-        <div class="card">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-              content. This content is a little bit longer.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      <div class="container">
+        <h2 class="text-center">Portfolio</h2>
+        <div class="card-deck">
+          <!-- Magic Card -->
+          <div class="card">
+            <img src="Assets/Images/1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <a href="https://kelly70ve.github.io/magic/" target="_blank"><button type="button" class="btn btn-secondary btn-lg btn-block shadow">Magic 8-Ball</button></a>
+            </div>
           </div>
-        </div>
-        <div class="card">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <!-- Treasure Hunt Card -->
+          <div class="card">
+            <img src="Assets/Images/2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <a href="https://kelly70ve.github.io/" target="_blank">
+                <button type="button" class="btn btn-secondary btn-lg btn-block shadow">Treasure Hunt Game</button>
+              </a>
+            </div>
           </div>
-        </div>
-        <div class="card">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-              content. This card has even longer content than the first to show that equal height action.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <!-- Work Card -->
+          <div class="card">
+            <img src="Assets/Images/3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <a href="https://www.linkedin.com/feed/update/urn:li:activity:6653447094801694720/" target="_blank">
+                <button type="button" class="btn btn-secondary btn-lg btn-block shadow">Site Re-Design</button>
+              </a>
+            </div>
           </div>
         </div>
     </section>
@@ -109,15 +118,15 @@
         <div class="form-group">
           <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-primary shadow">Submit</button>
       </form>
     </section>
 
     <!-- Footer -->
     <footer class="row"> 
-      <a href="#" class="fa fa-linkedin"></a>
-      <a href="#" class="fa fa-facebook"></a>
-      <a href="#" class="fa fa-instagram"></a>
+      <a href="https://www.linkedin.com/in/kellygowing" class="fa fa-linkedin" target="_blank"></a>
+      <a href="https://www.facebook.com/kelly.gowing" class="fa fa-facebook" target="_blank"></a>
+      <a href="https://www.instagram.com/kelly70ve/" class="fa fa-instagram" target="_blank"></a>
     </footer>
   </div>
 </body>
