@@ -2,6 +2,30 @@
 
 Responsive design ensures that web applications render well on a variety of devices and window or screen sizes. As a developer, I will likely be asked to create a mobile-first application or add responsive design to an existing application. 
 
+## Project Sections
+
+### Nav & Jumbotron
+
+![Nav & Jumbotron](./Assets/Screenshots/jumbotron.png)
+
+
+### About Me
+
+![About Me](./Assets/Screenshots/aboutme.png)
+
+
+### Portfolio
+
+![Portfolio](./Assets/Screenshots/portfolio.png)
+
+### Contact Me
+
+![Contact Me](./Assets/Screenshots/contactme.png)
+
+### Footer with Social Links
+
+![Footer](./Assets/Screenshots/footer.png)
+
 
 ## Project Goals: 
 
