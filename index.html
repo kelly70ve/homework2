@@ -21,9 +21,10 @@
 <body>
   <div class="container-fluid" id="full">
     <header>
-       <!-- NAV -->
-       <nav class="navbar navbar-expand-sm navbar-light bg-light justify-content-end container-fluid">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <!-- NAV -->
+      <nav class="navbar navbar-expand-sm navbar-light bg-light justify-content-end container-fluid">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
@@ -34,103 +35,134 @@
           </div>
         </div>
       </nav>
-  
-    <!-- Jumbo Tron -->
-    <div class="jumbotron row">
-      <div class="col-md-6">
-        <img src="Assets/Images/kelly.jpg" alt="Kelly Gowing" class="img-fluid shadow">
-      </div>
-      <div class="col-md-6" id="intro">
-        <h1 class="display-4">WELCOME</h1>
-        <hr class="my-4">
-        <p>Hi, I'm Kelly and I'm a full stack web developer.</p>
-        <a class="btn btn-primary btn-lg" href="#contact-me" role="button">Let's work together!</a>
-      </div>
-    </div>
 
-    <!-- ABOUT ME -->
-    <section id="about-me">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 center">
-            <h2 class="text-center">About Me</h2>
-            <p>
-              I am a seasoned professional and recent SDSU Marketing graduate. Recently, I have made the career 
-            </p>
-            <h3>Education</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, vitae.
-            </p>
-            <h3>Skills</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolore.</p>
-          </div>
-          <div class="col-md-4">
-            <img src="Assets/Images/gradcap.jpg" alt="gradcap" class="img-fluid shadow">
-          </div>
+      <!-- Jumbo Tron -->
+      <div class="jumbotron row">
+        <div class="col-md-6">
+          <img src="Assets/Images/kelly.jpg" alt="Kelly Gowing" class="img-fluid shadow">
+        </div>
+        <div class="col-md-6" id="intro">
+          <h1 class="display-4">WELCOME</h1>
+          <hr class="my-4">
+          <p>Hi, I'm Kelly and I'm a full stack web developer.</p>
+          <a class="btn btn-primary btn-lg" href="#contact-me" role="button">Let's work together!</a>
         </div>
       </div>
-    </section>
 
-    <!-- Portfolio -->
-    <section id="portfolio">
-      <div class="container">
-        <h2 class="text-center">Portfolio</h2>
-        <div class="card-deck">
-          <!-- Magic Card -->
-          <div class="card shadow-sm">
-            <img src="Assets/Images/1.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <a href="https://kelly70ve.github.io/magic/" target="_blank"><button type="button" class="btn btn-secondary btn-lg btn-block shadow">Magic 8-Ball</button></a>
+      <!-- ABOUT ME -->
+      <section id="about-me">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 center p-1">
+              <h2 class="text-center">About Me</h2>
+              <p>
+                I am a recent SDSU Marketing graduate. In December of 2019, I made the decsion to make a major career change from Event Planning to Full Stack Web Development. My dream is to be a UI/UX developer, because I would be able to utalize my skills in business, design, and development. 
+              </p>
+              <h3>Education</h3>
+              <h5>San Diego State University</h5>
+              <p>Bachelor of Science - BS, Marketing</p>
+              <p>Minor: Digital and Social Media Studies</p>
+              <h3>Skills</h3>
+              <table class="table table-hover container-sm">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">First</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td colspan="2">Larry the Bird</td>
+                  </tr>
+                </tbody>
+              </table>
+              
             </div>
-          </div>
-          <!-- Treasure Hunt Card -->
-          <div class="card shadow-sm">
-            <img src="Assets/Images/2.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <a href="https://kelly70ve.github.io/" target="_blank">
-                <button type="button" class="btn btn-secondary btn-lg btn-block shadow">Treasure Hunt Game</button>
-              </a>
-            </div>
-          </div>
-          <!-- Work Card -->
-          <div class="card shadow-sm">
-            <img src="Assets/Images/3.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <a href="https://www.linkedin.com/feed/update/urn:li:activity:6653447094801694720/" target="_blank">
-                <button type="button" class="btn btn-secondary btn-lg btn-block shadow">Site Redesign</button>
-              </a>
+            <div class="col-lg-4 p-1">
+              <img src="Assets/Images/gradcap.jpg" alt="gradcap" class="img-fluid shadow">
             </div>
           </div>
         </div>
-    </section>
+      </section>
 
-    <!-- CONTACT ME -->
-    <section id="contact-me">
-      <h2 class="text-center">Contact Me</h2>
-      <form class="container">
-        <div class="form-group">
-          <input type="name" class="form-control" id="inputName" placeholder="Name">
-        </div>
-        <div class="form-group">
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Address">
-        </div>
-        <div class="form-group">
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary shadow">Submit</button>
-      </form>
-    </section>
+      <!-- Portfolio -->
+      <section id="portfolio">
+        <div class="container">
+          <h2 class="text-center">Portfolio</h2>
+          <div class="card-deck">
+            <!-- Magic Card -->
+            <div class="card shadow-sm">
+              <img src="Assets/Images/1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <a href="https://kelly70ve.github.io/magic/" target="_blank"><button type="button"
+                    class="btn btn-secondary btn-lg btn-block shadow">Magic 8-Ball</button></a>
+              </div>
+            </div>
+            <!-- Treasure Hunt Card -->
+            <div class="card shadow-sm">
+              <img src="Assets/Images/2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <a href="https://kelly70ve.github.io/" target="_blank">
+                  <button type="button" class="btn btn-secondary btn-lg btn-block shadow">Treasure Hunt Game</button>
+                </a>
+              </div>
+            </div>
+            <!-- Work Card -->
+            <div class="card shadow-sm">
+              <img src="Assets/Images/3.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <a href="https://www.linkedin.com/feed/update/urn:li:activity:6653447094801694720/" target="_blank">
+                  <button type="button" class="btn btn-secondary btn-lg btn-block shadow">Site Redesign</button>
+                </a>
+              </div>
+            </div>
+          </div>
+      </section>
 
-    <!-- Footer -->
-    <footer class="row"> 
-      <a href="https://www.linkedin.com/in/kellygowing" class="fa fa-linkedin" target="_blank"></a>
-      <a href="https://www.facebook.com/kelly.gowing" class="fa fa-facebook" target="_blank"></a>
-      <a href="https://www.instagram.com/kelly70ve/" class="fa fa-instagram" target="_blank"></a>
-    </footer>
+      <!-- CONTACT ME -->
+      <section id="contact-me">
+        <h2 class="text-center">Contact Me</h2>
+        <form class="container">
+          <div class="form-group">
+            <input type="name" class="form-control" id="inputName" placeholder="Name">
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+              placeholder="Email Address">
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary shadow">Submit</button>
+        </form>
+      </section>
+
+      <!-- Footer -->
+      <footer class="row">
+        <a href="https://www.linkedin.com/in/kellygowing" class="fa fa-linkedin" target="_blank"></a>
+        <a href="https://www.facebook.com/kelly.gowing" class="fa fa-facebook" target="_blank"></a>
+        <a href="https://www.instagram.com/kelly70ve/" class="fa fa-instagram" target="_blank"></a>
+      </footer>
   </div>
   <!-- Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+  </script>
 </body>
+
 </html>

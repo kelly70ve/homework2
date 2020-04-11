@@ -21,6 +21,7 @@ html {
 }
 .btn:hover {
   background-color: #39a5a2;
+  color: #ffffff !important;
 }
 
 
@@ -69,8 +70,8 @@ h2 {
 }
 
 .center {
-  padding-top: 7.5rem;
-  padding-bottom: 7.5rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 /* About me */
