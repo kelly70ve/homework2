@@ -15,25 +15,25 @@
   <!-- Stylesheet -->
   <link rel="stylesheet" href="style.css">
   <!-- favicon -->
-  <link rel='icon' href='favicon.ico' type='image/x-icon'>
+  <link rel='icon' href='Assets/Images/favicon.ico' type='image/x-icon'>
 </head>
 
 <body>
   <div class="container-fluid" id="full">
     <header>
        <!-- NAV -->
-      <nav class="nav justify-content-end">
-        <li class="nav-item">
-          <a class="nav-link active" href="#about-me">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#portfolio">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#contact-me">Contact</a>
-        </li>
+       <nav class="navbar navbar-expand-sm navbar-light bg-light justify-content-end container-fluid">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#about-me">About <span class="sr-only"></span></a>
+            <a class="nav-item nav-link" href="#portfolio">Portfolio</a>
+            <a class="nav-item nav-link" href="#contact-me">Contact</a>
+          </div>
+        </div>
       </nav>
-    </header>
   
     <!-- Jumbo Tron -->
     <div class="jumbotron row">
@@ -77,14 +77,14 @@
         <h2 class="text-center">Portfolio</h2>
         <div class="card-deck">
           <!-- Magic Card -->
-          <div class="card">
+          <div class="card shadow-sm">
             <img src="Assets/Images/1.png" class="card-img-top" alt="...">
             <div class="card-body">
               <a href="https://kelly70ve.github.io/magic/" target="_blank"><button type="button" class="btn btn-secondary btn-lg btn-block shadow">Magic 8-Ball</button></a>
             </div>
           </div>
           <!-- Treasure Hunt Card -->
-          <div class="card">
+          <div class="card shadow-sm">
             <img src="Assets/Images/2.png" class="card-img-top" alt="...">
             <div class="card-body">
               <a href="https://kelly70ve.github.io/" target="_blank">
@@ -93,7 +93,7 @@
             </div>
           </div>
           <!-- Work Card -->
-          <div class="card">
+          <div class="card shadow-sm">
             <img src="Assets/Images/3.png" class="card-img-top" alt="...">
             <div class="card-body">
               <a href="https://www.linkedin.com/feed/update/urn:li:activity:6653447094801694720/" target="_blank">
@@ -128,5 +128,9 @@
       <a href="https://www.instagram.com/kelly70ve/" class="fa fa-instagram" target="_blank"></a>
     </footer>
   </div>
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>

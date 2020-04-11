@@ -17,20 +17,21 @@ html {
 .btn {
   background-color: #0F4C81;
   border: none;
+  color: #ffffff !important;
 }
 .btn:hover {
   background-color: #39a5a2;
 }
 
 
-/* NAV */
+/* Links*/
 a {
-  color: #0F4C81;
+  color: #0F4C81 !important;
   font-size: 25px;
 }
 
 a:hover {
-  color: #39a5a2;
+  color: #39a5a2 !important;
   text-decoration: none;
 }
 
