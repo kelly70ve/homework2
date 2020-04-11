@@ -2,31 +2,6 @@
 
 Responsive design ensures that web applications render well on a variety of devices and window or screen sizes. As a developer, I will likely be asked to create a mobile-first application or add responsive design to an existing application. 
 
-## Project Sections
-
-### Nav & Jumbotron
-
-![Nav & Jumbotron](./Assets/Screenshots/jumbotron.png)
-
-
-### About Me
-
-![About Me](./Assets/Screenshots/aboutme.png)
-
-
-### Portfolio
-
-![Portfolio](./Assets/Screenshots/portfolio.png)
-
-### Contact Me
-
-![Contact Me](./Assets/Screenshots/contactme.png)
-
-### Footer with Social Links
-
-![Footer](./Assets/Screenshots/footer.png)
-
-
 ## Project Goals: 
 
 * Using Bootstrap, develop a portfolio site with the following items:
@@ -57,6 +32,45 @@ Responsive design ensures that web applications render well on a variety of devi
 * Must contain your personalized information. (bio, name, images, links to social media, etc.)
 
 * Must properly utilize Bootstrap components and grid system.
+
+
+## Project Sections
+
+### Nav & Jumbotron
+
+![Nav & Jumbotron](./Assets/Screenshots/jumbotron.png)
+
+
+### About Me
+
+![About Me](./Assets/Screenshots/aboutme.png)
+
+
+### Portfolio
+
+![Portfolio](./Assets/Screenshots/portfolio.png)
+
+### Contact Me
+
+![Contact Me](./Assets/Screenshots/contactme.png)
+
+### Footer with Social Links
+
+![Footer](./Assets/Screenshots/footer.png)
+
+
+## Technologies Used
+
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [Bootstrap](https://getbootstrap.com/)
+- [Favicon.io](https://favicon.io/)
+- [Font Awesome](https://fontawesome.com/)
+- [FormSpree](https://formspree.io/)
+- [Google Fonts](https://fonts.google.com/)
+- [Canva](https://www.canva.com/)
+
+
 
 - - -
 
