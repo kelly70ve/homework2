@@ -2,6 +2,10 @@
 
 Responsive design ensures that web applications render well on a variety of devices and window or screen sizes. As a developer, I will likely be asked to create a mobile-first application or add responsive design to an existing application. 
 
+This project has been completed with no known bugs and can be viewed [here](https://kelly70ve.github.io/homework2/). The project is responsive and can be viewed on mobile, tablet or desktop. 
+
+---
+
 ## Project Goals: 
 
 * Using Bootstrap, develop a portfolio site with the following items:
@@ -33,6 +37,7 @@ Responsive design ensures that web applications render well on a variety of devi
 
 * Must properly utilize Bootstrap components and grid system.
 
+---
 
 ## Project Sections
 
@@ -58,7 +63,7 @@ Responsive design ensures that web applications render well on a variety of devi
 
 ![Footer](./Assets/Screenshots/footer.png)
 
-
+--- 
 ## Technologies Used
 
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
