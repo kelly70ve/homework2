@@ -69,19 +69,9 @@ h2 {
   padding-bottom: 5px;
 }
 
-.center {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-}
-
 /* About me */
 #about-me {
   background-color: #f5f5f5;
-}
-
-.img-fluid {
-  max-width: 100%;
-  height: auto;
 }
 
 /* Portfolio */
